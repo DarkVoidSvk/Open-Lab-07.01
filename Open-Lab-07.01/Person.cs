@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace Open_Lab_07._01
 {
@@ -17,7 +18,7 @@ namespace Open_Lab_07._01
 
         public TimeSpan GetAge()
         {
-            throw new NotImplementedException();
+            return DateTime.Now - BornIn;
         }
     }
 }
